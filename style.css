@@ -1,0 +1,37 @@
+body > div {
+  max-width: 300px;
+  margin: 20px auto;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  font-style: italic;
+  padding: 30px;
+  border: 1px solid #888;
+}
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even) {
+  background: red;
+}
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+  background: blue;
+}
+button {
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  background: green;
+  cursor: pointer;
+  margin: 20px 50px;
+}
+button:hover {
+  background: #19912B;
+}
+button:active,
+button:focus {
+  outline: none;
+}
+
