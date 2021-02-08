@@ -1,7 +1,6 @@
 let table = document.getElementById("table");
 let elements = document.querySelectorAll("td");
 
-let clicks = 0;
 let cellNumber = "1";
 let cellColor = "red";
 
